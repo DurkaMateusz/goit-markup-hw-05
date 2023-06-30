@@ -29,6 +29,7 @@
             </li>
             <li class="agencja">
               <a href="index.html" class="link">Agencja</a>
+              <div class="currentpage"></div>
             </li>
             <li class="portfolio">
               <a href="portfolio.html" class="link">Portfolio</a>
@@ -66,7 +67,7 @@
                 </div>
               </h1>
               <div class="button_box">
-                <button type="button" class="button button_box" :hover :focus>
+                <button type="button" class="button button_box" :hover :focus data-modal-open>
                   Zamów usługę
                 </button>
               </div>
@@ -146,6 +147,8 @@
                 height="294"
                 alt="picture of a programist"
               />
+              <div class="captiontag"></div>
+              <p class="captiontag-title">aplikacje komputerowe</p>
             </li>
             <li>
               <img
@@ -155,6 +158,8 @@
                 height="294"
                 alt="picture of a mobile tester"
               />
+              <div class="captiontag"></div>
+              <p class="captiontag-title">aplikacje mobilne</p>
             </li>
             <li>
               <img
@@ -164,6 +169,8 @@
                 height="294"
                 alt="picture of a graphic designer"
               />
+              <div class="captiontag"></div>
+              <p class="captiontag-title">rozwiązania graficzne</p>
             </li>
           </ul>
         </div>
@@ -406,5 +413,9 @@
         </ul>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal><div class="modal">
+      <button type="button" class="close-btn" data-modal-close>X</button>
+    </div></div>
+      <script src="./js/modal.js"></script>
   </body>
 </html>

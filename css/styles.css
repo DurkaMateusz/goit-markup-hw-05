@@ -46,6 +46,8 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.28px;
+  transition: all 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navbar .contact {
@@ -151,6 +153,8 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  transition: all 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address .link:hover,
 .address .link:focus,
@@ -252,6 +256,8 @@ header {
   display: inline-flex;
   fill: #757575;
   cursor: pointer;
+  transition: all 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo-envelope:hover,
@@ -415,6 +421,8 @@ figcaption {
   padding: 6px 22px;
   border-radius: 4px;
   background: #f5f4fa;
+  transition: all 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn_menu:focus,
 .btn_menu:hover,
@@ -459,6 +467,8 @@ figcaption {
   top: 0;
   left: 0;
   cursor: pointer;
+  transition: all 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-card:hover,
@@ -492,6 +502,8 @@ figure {
   padding: 12px;
   fill: #afb1b8;
   cursor: pointer;
+  transition: all 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icons_person {
@@ -501,6 +513,7 @@ figure {
   width: 100%;
   gap: 34px;
 }
+
 .icons-list {
   display: flex;
   align-items: baseline;
@@ -553,6 +566,8 @@ figure {
   border-radius: 30%;
   padding: 12px;
   cursor: pointer;
+  transition: all 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-joinus:hover {
@@ -580,6 +595,8 @@ figure {
   border: 1px solid #afb1b8;
   fill: #afb1b8;
   cursor: pointer;
+  transition: all 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-customer:hover {

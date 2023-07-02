@@ -240,7 +240,7 @@ header {
 .contact-phone {
   display: flex;
   order: 2;
-  padding-left: 10px;
+  padding-left: 6px;
   align-items: center;
 }
 
@@ -257,6 +257,7 @@ header {
   fill: #757575;
   cursor: pointer;
   transition: all 250ms;
+  margin-right: 10px;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -264,6 +265,7 @@ header {
 .logo-smartphone:hover {
   fill: #2196f3;
 }
+
 .navigation-box {
   display: flex;
   align-items: baseline;
